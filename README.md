@@ -8,7 +8,7 @@ Available in italian and english.
 
 <b> Intro </b>
 
--Se stai usando il software VVVV puoi scaricare il plugin di vvvv da qui https://vvvv.org/contribution/demolition-media-hap-player; questo ti permetterà di encodare singolarmente i file, ma non di fare una esportazione in serie di numerosi file. Per fare questo seguire le istruzioni che seguono utilizzando terminale.
+-Se stai usando il software VVVV puoi scaricare il plugin di vvvv da qui https://vvvv.org/contribution/demolition-media-hap-player; questo ti permetterà di encodare singolarmente i file, ma non di fare una esportazione in serie. Per fare questo seguire le istruzioni che seguono utilizzando terminale.
 -Preparare video encoding Hap con quicktime o ffmpeg https://www.dropbox.com/s/u2wiccg9ru1tx41/Hap%20Encoding%20Tips.pdf?dl=1
 -Con ffmpeg, scaricare da qui (scarica il build) https://www.ffmpeg.org/download.html
 -Usare terminale per encodare i video
