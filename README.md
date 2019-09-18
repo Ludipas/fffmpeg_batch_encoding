@@ -9,7 +9,7 @@ Available in italian and english.
 Modifica le variabili di ambiente relative al sistema > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin dentro ffmpeg
 Per conversione da mp4 a hap mov:
 
-<h2><b>2. Per conversione da mov a hap mov:</b></h2>
+<h2><b>2. Per conversione da .mp4 a hap .mov:</b></h2>
 
 Entrare in prompt
 
@@ -23,7 +23,7 @@ for /f "tokens=1 delims=." %a in ('dir /B *.mp4') do ffmpeg -i "%a.mp4" -c:v hap
 
 (dove a = variabile qualsiasi)
 
-<h2><b>2. Per conversione da mov a hap mov:</b></h2>
+<h2><b>2. Per conversione da .mov a _hap.mov:</b></h2>
 
 Entrare in prompt
 
