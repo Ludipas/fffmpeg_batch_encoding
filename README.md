@@ -14,6 +14,8 @@ Available in italian and english.
 
 -Con ffmpeg, scaricare da qui (scarica il build) https://www.ffmpeg.org/download.html
 
+<b> Importante!! </b>
+Alcuni caratteri (come spazio o punti) nel nome di un file potrebbero impedire di eseguire il comando da prompt! Usare terminale o altro per rinominare/sostituire questi caratteri dal nome dei file.
 
 _______________________________________________________________________
 <b>Per velocizzare ricerca di ffmpeg:</b>
