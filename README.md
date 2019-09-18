@@ -25,14 +25,14 @@ Per conversione da mp4 a hap mov:
 
 Entrare in prompt
 
-ffmpeg
-cd Desktop (o ovunque tu abbia cartella video)
-cd cartella_video
-se non era in C, per cambiare directory: cd /d d:
-poi per entrare nelle cartelle: cd nomecartella\nomecartella\nomecartella...
-inserire così com'è:
+```ffmpeg```
+<br>```cd Desktop``` (o ovunque tu abbia cartella video)
+<br>```cd cartella_video```
+<br>se non era in C, per cambiare directory: ```cd /d d:```
+<br>poi per entrare nelle cartelle: cd nomecartella\nomecartella\nomecartella...
+<br>inserire così com'è:
 
-<for /f "tokens=1 delims=." %a in ('dir /B *.mp4') do ffmpeg -i "%a.mp4" -c:v hap "%a.mov">
+```for /f "tokens=1 delims=." %a in ('dir /B *.mp4') do ffmpeg -i "%a.mp4" -c:v hap "%a.mov"```
 
 (dove a = variabile qualsiasi)
 
@@ -40,14 +40,14 @@ inserire così com'è:
 
 Entrare in prompt
 
-ffmpeg
-cd Desktop (o ovunque tu abbia cartella video)
-cd cartella_video
-se non era in C, per cambiare directory: cd /d d:
-poi per entrare nelle cartelle: cd nomecartella\nomecartella\nomecartella...
-inserire così com'è:
+```ffmpeg```
+<br>```cd Desktop``` (o ovunque tu abbia cartella video)
+<br>```cd cartella_video```
+<br>se non era in C, per cambiare directory: ```cd /d d:```
+<br>poi per entrare nelle cartelle: cd nomecartella\nomecartella\nomecartella...
+<br>inserire così com'è:
 
-<for /f "tokens=1 delims=." %a in ('dir /B *.mov') do ffmpeg -i "%a.mov" -c:v hap "%a_hap.mov">
+```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do ffmpeg -i "%a.mov" -c:v hap "%a_hap.mov">```
 
 il nome di destinazione va cambiato in _hap.mov perchè se no sovrascrive il file stesso e non riesce a fare la codifica.
 
