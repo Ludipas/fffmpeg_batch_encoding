@@ -49,6 +49,8 @@ for /f "tokens=1 delims=." %a in ('dir /B *.mov') do ffmpeg -i "%a.mov" -c:v hap
 
 il nome di destinazione va cambiato in _hap.mov perchè se no sovrascrive il file stesso e non riesce a fare la codifica.
 
+_______________________________________________________________________
+
 altro link utile:
 
 https://gist.github.com/dlublin/e4585b872dd136ae88b2aa51a6a89aac
