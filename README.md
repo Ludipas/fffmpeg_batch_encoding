@@ -48,7 +48,7 @@ Entrare in prompt
 <br>poi per entrare nelle cartelle: ```cd nomecartella\nomecartella\nomecartella...```
 <br>inserire così com'è:
 
-```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do ffmpeg -i "%a.mov" -c:v hap "%a_hap.mov">```
+```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do ffmpeg -i "%a.mov" -c:v hap "%a_hap.mov"```
 
 il nome di destinazione va cambiato in _hap.mov perchè se no sovrascrive il file stesso e non riesce a fare la codifica.
 
