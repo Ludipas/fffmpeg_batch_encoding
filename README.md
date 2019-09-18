@@ -2,14 +2,14 @@
 Description and command line instruction to make a batch encoding of videos from mp4/mov to hap mov.
 Available in italian and english.
 
-<h1><b>ITA</b></h1>
+<h1><b>Istruzioni in italiano</b></h1>
 
-<b>per velocizzare ricerca di ffmpeg:</b>
+<h3><b>1. per velocizzare ricerca di ffmpeg:</b></h3>
 
 Modifica le variabili di ambiente relative al sistema > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin dentro ffmpeg
 Per conversione da mp4 a hap mov:
 
-Entrare in prompt
+<b>2. Entrare in prompt</b>
 
 ffmpeg
 cd Desktop (o ovunque tu abbia cartella video)
@@ -21,7 +21,7 @@ for /f "tokens=1 delims=." %a in ('dir /B *.mp4') do ffmpeg -i "%a.mp4" -c:v hap
 
 (dove a = variabile qualsiasi)
 
-Per conversione da mov a hap mov:
+<h3><b>3. Per conversione da mov a hap mov:</b></h3>
 
 Entrare in prompt
 
