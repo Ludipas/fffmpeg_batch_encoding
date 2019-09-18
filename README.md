@@ -21,7 +21,7 @@ _______________________________________________________________________
 Modifica le variabili di ambiente relative al sistema > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin dentro ffmpeg
 Per conversione da mp4 a hap mov:
 
-<h2><b>2. Per conversione da .mp4 a hap .mov:</b></h2>
+<h2><b>2. Per conversione da .mp4 a _hap.mov:</b></h2>
 
 Entrare in prompt
 
