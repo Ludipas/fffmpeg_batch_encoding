@@ -14,7 +14,6 @@ Available in italian and english.
 
 -Con ffmpeg, scaricare da qui (scarica il build) https://www.ffmpeg.org/download.html
 
--Usare terminale per encodare i video
 
 _______________________________________________________________________
 <b>Per velocizzare ricerca di ffmpeg:</b>
