@@ -4,12 +4,12 @@ Available in italian and english.
 
 <h1><b>Istruzioni in italiano</b></h1>
 
-<b>0. per velocizzare ricerca di ffmpeg:</b>
+<b>Per velocizzare ricerca di ffmpeg:</b>
 
 Modifica le variabili di ambiente relative al sistema > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin dentro ffmpeg
 Per conversione da mp4 a hap mov:
 
-<h3><b>2. Per conversione da mov a hap mov:</b></h3>
+<h2><b>2. Per conversione da mov a hap mov:</b></h2>
 
 Entrare in prompt
 
@@ -23,7 +23,7 @@ for /f "tokens=1 delims=." %a in ('dir /B *.mp4') do ffmpeg -i "%a.mp4" -c:v hap
 
 (dove a = variabile qualsiasi)
 
-<h3><b>2. Per conversione da mov a hap mov:</b></h3>
+<h2><b>2. Per conversione da mov a hap mov:</b></h2>
 
 Entrare in prompt
 
