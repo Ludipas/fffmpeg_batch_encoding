@@ -12,8 +12,6 @@ Available in italian and english.
 
 -Preparare video encoding Hap con quicktime o ffmpeg https://www.dropbox.com/s/u2wiccg9ru1tx41/Hap%20Encoding%20Tips.pdf?dl=1
 
--Con ffmpeg, scaricare da qui (scarica il build) https://www.ffmpeg.org/download.html
-
 <b> Importante!! </b>
 Alcuni caratteri (come spazio o punti) nel nome di un file potrebbero impedire di eseguire il comando da prompt! Usare terminale o altro per rinominare/sostituire questi caratteri dal nome dei file.
 
@@ -23,6 +21,10 @@ _______________________________________________________________________
 Modifica le variabili di ambiente relative al sistema 
 <br>Proprietà di sistema > Avanzato > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin che si trova dentro cartella ffmpeg
 
+
+<h2><b>1. Scaricare build FFMPEG </b></h2>
+
+https://www.ffmpeg.org/download.html
 
 <h2><b>2. Per conversione da .mp4 a _hap.mov:</b></h2>
 
