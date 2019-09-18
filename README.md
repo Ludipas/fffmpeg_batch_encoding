@@ -26,7 +26,7 @@ Modifica le variabili di ambiente relative al sistema
 
 https://www.ffmpeg.org/download.html
 
-<h2><b>2. Per conversione da .mp4 a _hap.mov:</b></h2>
+<h2><b>2.a Per conversione da .mp4 a _hap.mov:</b></h2>
 
 Entrare in prompt
 
@@ -41,7 +41,7 @@ Entrare in prompt
 
 (dove a = variabile qualsiasi)
 
-<h2><b>2. Per conversione da .mov a _hap.mov:</b></h2>
+<h2><b>2.b Per conversione da .mov a _hap.mov:</b></h2>
 
 Entrare in prompt
 
