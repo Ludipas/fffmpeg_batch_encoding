@@ -2,7 +2,7 @@
 Description and command line instruction to make a batch encoding of videos from mp4/mov to hap mov.
 Available in italian and english.
 
-ITA
+<h1><b>ITA</b></h1>
 
 <b>per velocizzare ricerca di ffmpeg:</b>
 
