@@ -19,7 +19,7 @@ _______________________________________________________________________
 <b>Per velocizzare ricerca di ffmpeg:</b>
 
 Modifica le variabili di ambiente relative al sistema 
-<br>Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin che si trova dentro cartella ffmpeg
+<br>Proprietà di sistema > Avanzato > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin che si trova dentro cartella ffmpeg
 
 
 <h2><b>2. Per conversione da .mp4 a _hap.mov:</b></h2>
