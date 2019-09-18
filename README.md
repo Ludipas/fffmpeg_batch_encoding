@@ -16,7 +16,7 @@ Available in italian and english.
 
 -Usare terminale per encodare i video
 
-
+_______________________________________________________________________
 <b>Per velocizzare ricerca di ffmpeg:</b>
 
 Modifica le variabili di ambiente relative al sistema > Variabili d'ambiente > Variabili di sistema : Path: Modifica > aggiungere il percorso per bin dentro ffmpeg
