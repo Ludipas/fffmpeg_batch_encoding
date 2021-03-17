@@ -48,7 +48,9 @@ il nome di destinazione va cambiato in _hap.mov perchè se no sovrascrive il fil
 
 <h2><b>2.b Per conversione da .mov a sequenza di .png:</b></h2>
 
-```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do (if not exist "%a\" mkdir "%a" && ffmpeg -i "%a.mov" -vsync 0 -vf "scale=480:480" "%a/out%d.png")```
+```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do (if not exist "%a\" mkdir "%a" && ffmpeg -i "%a.mov" -vsync 0 -vf "scale=480:480,fps=30" "%a/out%d.png")```
+
+nel filtro è possibile specificare la dimensione di output e i fps
 
 
 _______________________________________________________________________
