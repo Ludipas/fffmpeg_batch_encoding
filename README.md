@@ -39,20 +39,17 @@ Entrare in prompt
 
 (dove a = variabile qualsiasi)
 
-<h2><b>2.b Per conversione da .mov a _hap.mov:</b></h2>
-
-Entrare in prompt
-
-```ffmpeg```
-<br>```cd Desktop``` (o ovunque tu abbia cartella video)
-<br>```cd cartella_video```
-<br>se non era in C, per cambiare directory: ```cd /d d:```
-<br>poi per entrare nelle cartelle: ```cd nomecartella\nomecartella\nomecartella...```
-<br>inserire così com'è:
+<h2><b>2.c Per conversione da .mov a _hap.mov:</b></h2>
 
 ```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do ffmpeg -i "%a.mov" -c:v hap "%a_hap.mov"```
 
 il nome di destinazione va cambiato in _hap.mov perchè se no sovrascrive il file stesso e non riesce a fare la codifica.
+
+
+<h2><b>2.b Per conversione da .mov a sequenza di .png:</b></h2>
+
+```for /f "tokens=1 delims=." %a in ('dir /B *.mov') do (if not exist "%a\" mkdir "%a" && ffmpeg -i "%a.mov" -vsync 0 -vf "scale=480:480" "%a/out%d.png")```
+
 
 _______________________________________________________________________
 
